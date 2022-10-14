@@ -1,0 +1,13 @@
+body {
+  background-color: #3bceac;
+}
+
+.card {
+  background-color: #ffd23f;
+  border-color: white;
+  box-shadow: 0 0 20px black;
+}
+
+.bg-magenta {
+  background-color: #ee4266;
+}

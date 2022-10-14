@@ -42,4 +42,6 @@ button.addEventListener('click', function(){
   
   // inserisco l'output nell'html
   card.append(output);
-}); 
+  
+});
+
