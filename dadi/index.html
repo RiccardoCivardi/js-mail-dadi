@@ -20,11 +20,26 @@
 <body>
 
   <div class="container-fluid">
-    <div class="row vh-100 d-flex align-items-center">
-      <div class="col col-4 offset-4 card">
-        <h4 class="text-uppercase text-center mb-3 mt-5">Gioco dei dadi</h4>
+    
+    <div class="row py-5">
+      
+      <div class="col col-6 offset-3 col-lg-3 offset-lg-2 card">
+        <h2 class="display-6 fw-bold text-uppercase text-center mb-1 mt-5">Lancio dei dadi</h2>
+        <p class="text-center mb-5 text-dark rounded-5 p-2">Il gioco esegue il lancio di un dado in modo casuale sia per l'utente che per il computer e mostra sia i numeri estratti che il vincitore</p>
         <button type="button" class="btn btn-outline-dark mt-2 mb-5 w-50 mx-auto">INIZIA PARTITA</button>
       </div>
+
+      <div class="col col-6 offset-3 mt-5 col-lg-3 offset-lg-2 mt-lg-0 card">
+        <h2 class="display-6 fw-bold text-uppercase text-center mb-1 mt-5">Somma dei dadi</h2>
+        <p class="text-center mb-3 text-dark rounded-5 p-2">Il gioco esegue il lancio di x dadi in modo casuale sia per l'utente che per il computer, li somma e mostra totali e vincitore</p>
+        <input 
+          type="number"  
+          name="dice-rolls"
+          placeholder = "Quanti dadi vuoi lanciare?"
+        >
+        <button type="button" class="btn btn-outline-dark mt-2 mb-5 w-50 mx-auto">INIZIA PARTITA</button>
+      </div>
+
     </div>
   </div>
 

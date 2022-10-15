@@ -8,6 +8,42 @@ body {
   box-shadow: 0 0 20px black;
 }
 
+p {
+  font-size: 0.6rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 5px white;
+}
+
 .bg-magenta {
   background-color: #ee4266;
+}
+
+.fs-7 {
+  font-size: 0.9rem;
+}
+
+input {
+  background-color: #ee4266;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-align: center;
+  border: 1px solid #ee4266;
+  color: white
+}
+
+input::placeholder{
+  color: white;
+}
+
+input:focus {
+  background-color: white;
+  color: #540d6e; 
+}
+
+input:focus-visible {
+  outline: 0;
+}
+
+input:focus::placeholder{
+  color: #ee4266;
 }
