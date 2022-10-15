@@ -8,6 +8,12 @@ body {
   box-shadow: 0 0 20px black;
 }
 
+p {
+  font-size: 0.6rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 5px white;
+}
+
 input {
   background-color: #ee4266;
   border-radius: 5px;
